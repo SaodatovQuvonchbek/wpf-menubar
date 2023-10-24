@@ -1,0 +1,20 @@
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash_MarkupCompile.cache
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash_MarkupCompile.lref
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\bin\Debug\net6.0-windows\Menu Yasash.exe
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\bin\Debug\net6.0-windows\Menu Yasash.deps.json
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\bin\Debug\net6.0-windows\Menu Yasash.runtimeconfig.json
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\bin\Debug\net6.0-windows\Menu Yasash.dll
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\bin\Debug\net6.0-windows\Menu Yasash.pdb
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.g.resources
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.AssemblyInfoInputs.cache
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.AssemblyInfo.cs
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.csproj.CoreCompileInputs.cache
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.dll
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\refint\Menu Yasash.dll
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.pdb
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.genruntimeconfig.cache
+C:\Users\Soadatov_q\source\repos\Menu Yasash\Menu Yasash\obj\Debug\net6.0-windows\ref\Menu Yasash.dll

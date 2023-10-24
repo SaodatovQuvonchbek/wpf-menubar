@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menu Yasash", "Menu Yasash\Menu Yasash.csproj", "{02650B23-9E03-4EA1-ACF8-960653276C64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02650B23-9E03-4EA1-ACF8-960653276C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02650B23-9E03-4EA1-ACF8-960653276C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02650B23-9E03-4EA1-ACF8-960653276C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02650B23-9E03-4EA1-ACF8-960653276C64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67799363-E836-4D11-A0B3-2C0207FF675D}
+	EndGlobalSection
+EndGlobal
