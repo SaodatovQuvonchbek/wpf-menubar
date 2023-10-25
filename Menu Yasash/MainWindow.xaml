@@ -26,7 +26,7 @@
             </Border.Background>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition MaxHeight="70"/>
+                    <RowDefinition MaxHeight="90"/>
                     <RowDefinition Height="*"/>
 
                     <RowDefinition MaxHeight="50" />
@@ -36,15 +36,36 @@
                     <ColumnDefinition MaxWidth="150"/>
                     <ColumnDefinition/>
                     <ColumnDefinition Width="65" />
+
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Row="1" Grid.Column="1">
-                    <Button  Grid.Column="1" Grid.Row="1"  Height="35" Width="150"  Content="Kirish}" Foreground="White" >
+                    <Button  Grid.Column="1" Grid.Row="1" Margin="0,5" Height="35" Width="150"  Content="Kirish}" Foreground="White" >
 
                         <Button.Resources>
+                            <Style TargetType="{x:Type Button}">
+                                <Setter Property="Background" Value="Green"/>
+                                <Setter Property="Template">
+                                    <Setter.Value>
+                                        <ControlTemplate TargetType="{x:Type Button}">
+                                            <Border Background="{TemplateBinding Background}" BorderBrush="Black" BorderThickness="1">
+                                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                            </Border>
+                                        </ControlTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="Red"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="15"/>
                             </Style>
+
                         </Button.Resources>
+                        
+                        
                         <Button.Background>
 
 
@@ -64,7 +85,7 @@
                             </LinearGradientBrush>
                         </Button.BorderBrush>
                     </Button>
-                    <Button Grid.Column="1" Grid.Row="1" Height="35" Width="150" Content=" 1-Bob" Foreground="White">
+                    <Button Grid.Column="1" Margin="0,5" Grid.Row="1" Height="35" Width="150" Content=" 1-Bob" Foreground="White">
                         <Button.Resources>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="15"/>
@@ -86,7 +107,7 @@
                             </LinearGradientBrush>
                         </Button.BorderBrush>
                     </Button>
-                    <Button Grid.Column="1" Grid.Row="1"  Height="35" Width="150" Content=" 2-Bob" Foreground="White">
+                    <Button Grid.Column="1" Grid.Row="1" Margin="0,5"  Height="35" Width="150" Content=" 2-Bob" Foreground="White">
                         <Button.Resources>
                             <Style TargetType="{x:Type Border}">
                                 <Setter Property="CornerRadius" Value="15"/>
@@ -108,7 +129,7 @@
                             </LinearGradientBrush>
                         </Button.BorderBrush>
                     </Button>
-                    <Button Grid.Column="1" Grid.Row="1"  Height="35" Width="150" Content=" 3-Bob" Foreground="#FFFFFBFB">
+                    <Button Grid.Column="1" Grid.Row="1" Margin="0,5"  Height="35" Width="150" Content=" 3-Bob" Foreground="#FFFFFBFB">
 
                         <Button.Resources>
                             <Style TargetType="{x:Type Border}">
@@ -155,12 +176,12 @@
                     </Button.Background>
                 </Button>
 
-                <Image Width="30"  Grid.Row="0" Grid.Column="2" Margin="350,-10,186,10">
+                <Image Width="34" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Margin="345,34,0,24" RenderTransformOrigin="0.461,-0.057">
                     <Image.Source>
                         <BitmapImage DecodePixelWidth="300" UriSource="D:\1.png" />
                     </Image.Source>
                 </Image>
-                <Label Background="Black" Foreground="White" FontSize="20"  Content="Hello Kuvonch" Margin="396,8,26,27" Grid.Column="2" />
+                <Label Background="{x:Null}" Foreground="White" FontSize="20"  Content="Hello Kuvonch" Margin="392,30,26,20" Grid.Column="2" />
                 <StackPanel Grid.Row="1" Grid.Column="2">
 
 
