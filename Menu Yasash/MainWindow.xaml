@@ -3,18 +3,21 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Menu_Yasash"
+        xmlns:local="clr-namespace:Menu_Yasash" xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        
-          Height="450"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Height="450"
         Width="800"
         WindowStyle="None"
         Background="Transparent"
         WindowStartupLocation="CenterScreen"
-        AllowsTransparency="True"
-        
-       >
-
+        AllowsTransparency="True" >
+   
     <Border CornerRadius="55" BorderThickness="5" BorderBrush="DarkBlue">
         <Border CornerRadius="50">
 
@@ -159,21 +162,19 @@
                 </StackPanel>
 
 
-                <Button Grid.Column="3" Grid.Row="0" Height="30" Width="30"  Content="Exit" Foreground="White" Click="Button_Click"  >
-                    <Button.Resources>
-                        <Style TargetType="{x:Type Border}">
-                            <Setter Property="CornerRadius" Value="7"/>
-                        </Style>
-                    </Button.Resources>
+                <Button Grid.Row="0" Grid.Column="3"
+  Style="{StaticResource MaterialDesignFloatingActionAccentButton}"
+  ToolTip="MaterialDesignFloatingActionAccentButton" BorderBrush="#FF020101">
                     <Button.Background>
-                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" >
-
-                            <GradientStop Color="#FFD693A2" Offset="0.883"/>
-                            <GradientStop Color="#FFC53B3B" Offset="0.356"/>
-                            <GradientStop Color="#FFD83B51" Offset="0"/>
-                            <GradientStop Color="#FFBA4040" Offset="0.238"/>
+                        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                            <GradientStop Color="#FF6D6666"/>
+                            <GradientStop Color="#FFBF1C1C" Offset="1"/>
                         </LinearGradientBrush>
                     </Button.Background>
+                    <materialDesign:PackIcon
+    Kind="Close"
+    Height="24"
+    Width="24" Foreground="#DDFFFFFF" />
                 </Button>
 
                 <Image Width="34" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Left" Margin="345,34,0,24" RenderTransformOrigin="0.461,-0.057">

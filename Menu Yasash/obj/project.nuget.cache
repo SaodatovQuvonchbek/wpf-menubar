@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "InSTX6/nBIUl/PcmmDGqw35cl7kTJqQNrYQqZddeZGJkNB/2FKrRYNSxIJNJJm5GCXW8QLkqOZhe+/hMu0Lfyw==",
+  "dgSpecHash": "CrJYjN9YxUt9t7pYldVYNKoh8/z5oQ+qAuAsE12BYclScCAbkNFQRM4EpUVBOoj+UYDyWJdNjaPj1D0xQLXXuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kuvonch\\Documents\\GitHub\\wpf-menubar\\Menu Yasash\\Menu Yasash.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Kuvonch\\.nuget\\packages\\materialdesigncolors\\2.0.3\\materialdesigncolors.2.0.3.nupkg.sha512",
+    "C:\\Users\\Kuvonch\\.nuget\\packages\\materialdesignthemes\\4.2.1\\materialdesignthemes.4.2.1.nupkg.sha512"
+  ],
   "logs": []
 }

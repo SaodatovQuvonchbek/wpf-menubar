@@ -38,3 +38,8 @@ C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windo
 C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.pdb
 C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.genruntimeconfig.cache
 C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windows\ref\Menu Yasash.dll
+C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\bin\Debug\net6.0-windows\MaterialDesignColors.dll
+C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\bin\Debug\net6.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.csproj.AssemblyReference.cache
+C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windows\App.baml
+C:\Users\Kuvonch\Documents\GitHub\wpf-menubar\Menu Yasash\obj\Debug\net6.0-windows\Menu Yasash.csproj.CopyComplete
