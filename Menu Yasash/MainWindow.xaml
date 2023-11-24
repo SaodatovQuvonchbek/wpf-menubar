@@ -184,8 +184,7 @@
                 </Image>
                 <Label Background="{x:Null}" Foreground="White" FontSize="20"  Content="Hello Kuvonch" Margin="392,30,26,20" Grid.Column="2" />
                 <StackPanel Grid.Row="1" Grid.Column="2">
-
-
+                   
 
 
                 </StackPanel>
